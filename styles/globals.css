@@ -7,33 +7,24 @@
 @tailwind utilities;
 
 /* Styles généraux pour le corps de la page */
-body {
-    font-family: 'Poppins', sans-serif;
+body {font-family: 'Poppins', sans-serif;
     background-color: #F5F5F5; /* Couleur de fond douce */
     color: #333333; /* Couleur du texte */
     line-height: 1.6;
     margin: 0;
     padding: 0;
-}
-
-/* Styles pour les titres */
+}/* Styles pour les titres */
 h1, h2, h3 {
     font-weight: 700;
     color: #4CAF50; /* Vert apaisant pour le bien-être */
     margin-bottom: 20px;
-}
-
-/* Styles pour les liens */
+}/* Styles pour les liens */
 a {
     color: #FF9800; /* Orange énergisant pour le sport */
     text-decoration: none;
-}
-
-a:hover {
+}a:hover {
     text-decoration: underline;
-}
-
-/* Styles pour les boutons */
+}/* Styles pour les boutons */
 .btn {
     display: inline-block;
     background-color: #4CAF50;
@@ -43,9 +34,7 @@ a:hover {
     font-weight: 500;
     text-align: center;
     cursor: pointer;
-}
-
-.btn:hover {
+}.btn:hover {
     background-color: #FF9800;
 }
 
@@ -53,30 +42,20 @@ a:hover {
 .section {
     padding: 60px 20px;
     text-align: center;
-}
-
-.section-light {
+}.section-light {
     background-color: #FFFFFF;
-}
-
-.section-dark {
+}.section-dark {
     background-color: #F5F5F5;
-}
-
-/* Mise en page avec des grilles */
+}/* Mise en page avec des grilles */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-}
-
-.grid {
+}.grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-}
-
-/* Responsive Design */
+}/* Responsive Design */
 @media (max-width: 768px) {
     .grid {
         grid-template-columns: 1fr;
