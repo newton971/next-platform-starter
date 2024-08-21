@@ -21,19 +21,13 @@ h1, h2, h3 {
     font-weight: 700;
     color: #4CAF50; /* Vert apaisant pour le bien-être */
     margin-bottom: 20px;
-}
-
-/* Style des liens */
+}/* Style des liens */
 a {
     color: #FF9800; /* Orange énergisant pour le sport */
     text-decoration: none;
-}
-
-a:hover {
+}a:hover {
     text-decoration: underline;
-}
-
-/* Style pour les boutons */
+}/* Style pour les boutons */
 .btn {
     display: inline-block;
     background-color: #4CAF50;
@@ -44,7 +38,6 @@ a:hover {
     text-align: center;
     cursor: pointer;
 }
-
 .btn:hover {
     background-color: #FF9800;
 }
