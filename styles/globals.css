@@ -6,7 +6,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Appliquer des styles de base */
+/* Styles généraux pour le corps de la page */
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #F5F5F5; /* Couleur de fond douce */
@@ -21,13 +21,19 @@ h1, h2, h3 {
     font-weight: 700;
     color: #4CAF50; /* Vert apaisant pour le bien-être */
     margin-bottom: 20px;
-}/* Style des liens */
+}
+
+/* Styles pour les liens */
 a {
     color: #FF9800; /* Orange énergisant pour le sport */
     text-decoration: none;
-}a:hover {
+}
+
+a:hover {
     text-decoration: underline;
-}/* Style pour les boutons */
+}
+
+/* Styles pour les boutons */
 .btn {
     display: inline-block;
     background-color: #4CAF50;
@@ -38,11 +44,12 @@ a {
     text-align: center;
     cursor: pointer;
 }
+
 .btn:hover {
     background-color: #FF9800;
 }
 
-/* Sections */
+/* Styles pour les sections */
 .section {
     padding: 60px 20px;
     text-align: center;
@@ -56,7 +63,7 @@ a {
     background-color: #F5F5F5;
 }
 
-/* Formes et layout */
+/* Mise en page avec des grilles */
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -69,7 +76,7 @@ a {
     gap: 20px;
 }
 
-/* Responsive */
+/* Responsive Design */
 @media (max-width: 768px) {
     .grid {
         grid-template-columns: 1fr;
