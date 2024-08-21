@@ -1,4 +1,4 @@
- /* Importation de la police de Google Fonts */
+/* Importation de la police de Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
 
 /* Utilisation de Tailwind CSS */
@@ -6,19 +6,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Couleurs personnalisées */
-:root {
-    --primary-color: #4CAF50; /* Vert apaisant pour le bien-être */
-    --secondary-color: #FF9800; /* Orange énergisant pour le sport */
-    --background-color: #F5F5F5; /* Couleur de fond douce */
-    --text-color: #333333; /* Couleur du texte */
-}
-
 /* Appliquer des styles de base */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: var(--background-color);
-    color: var(--text-color);
+    background-color: #F5F5F5; /* Couleur de fond douce */
+    color: #333333; /* Couleur du texte */
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -27,13 +19,13 @@ body {
 /* Styles pour les titres */
 h1, h2, h3 {
     font-weight: 700;
-    color: var(--primary-color);
+    color: #4CAF50; /* Vert apaisant pour le bien-être */
     margin-bottom: 20px;
 }
 
 /* Style des liens */
 a {
-    color: var(--secondary-color);
+    color: #FF9800; /* Orange énergisant pour le sport */
     text-decoration: none;
 }
 
@@ -44,7 +36,7 @@ a:hover {
 /* Style pour les boutons */
 .btn {
     display: inline-block;
-    background-color: var(--primary-color);
+    background-color: #4CAF50;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
@@ -54,7 +46,7 @@ a:hover {
 }
 
 .btn:hover {
-    background-color: var(--secondary-color);
+    background-color: #FF9800;
 }
 
 /* Sections */
@@ -68,24 +60,7 @@ a:hover {
 }
 
 .section-dark {
-    background-color: var(--background-color);
-}
-
-/* Styles spécifiques */
-.meditation-section {
-    background-image: url('/path/to/meditation-image.jpg'); /* Remplacez par le chemin de votre image */
-    background-size: cover;
-    background-position: center;
-    padding: 100px 20px;
-    color: #fff;
-}
-
-.sport-section {
-    background-image: url('/path/to/sport-image.jpg'); /* Remplacez par le chemin de votre image */
-    background-size: cover;
-    background-position: center;
-    padding: 100px 20px;
-    color: #fff;
+    background-color: #F5F5F5;
 }
 
 /* Formes et layout */
